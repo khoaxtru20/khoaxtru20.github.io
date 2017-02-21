@@ -44,7 +44,7 @@
             <li><a href="./analyze.html">Analyze Time</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <button type="button" class="btn btn-primary navbar-btn">Track New Activity</button>
+            <a href="./index.html" type="button" class="btn btn-primary navbar-btn">Track New Activity</a>
             <button type="button" class="btn btn-default navbar-btn">Stop Tracking</button>
           </ul>
         </div><!--/.nav-collapse -->
@@ -55,19 +55,20 @@
 
       <div class="col-lg-4 col-sm-offset-4 container">
       <!-- Main component for a primary marketing message or call to action -->
-        <div class="row jumbotron">
+        <div class="row jumbotron" id="todo">
           <form>
             <div class="form-group">
               <h1> TO-DO LIST </h1>
-              <label for=""></label>
-              <input type="text" class="form-control" id="input" aria-describedby="" placeholder="Enter Task">
-              <input type="text" class="form-control" id="input" aria-describedby="" placeholder="Enter Task">
-              <input type="text" class="form-control" id="input" aria-describedby="" placeholder="Enter Task">
-              <input type="text" class="form-control" id="input" aria-describedby="" placeholder="Enter Task">
-              <input type="text" class="form-control" id="input" aria-describedby="" placeholder="Enter Task">
+              <input type="text" name="spot 1" class="form-control" aria-describedby="" placeholder="Enter Task">
+              <input type="text" name="spot 2" class="form-control" aria-describedby="" placeholder="Enter Task">
+              <input type="text" name="spot 3" class="form-control" aria-describedby="" placeholder="Enter Task">
+              <input type="text" name="spot 4" class="form-control" aria-describedby="" placeholder="Enter Task">
+              <input type="text" name="spot 5" class="form-control" aria-describedby="" placeholder="Enter Task">
             </div>
+            <!-- <input name="bar" value="enter some shit" /> -->
+
           </form>
-          <a class="btn btn-lg btn-primary center-block track" role="button">ADD TASK(S)</a>
+          <a class="btn btn-lg btn-primary center-block track" onclick="submit()" role="button">ADD TASK(S)</a>
         </div>
       </div>
 
@@ -82,5 +83,6 @@
     <script src="./docs/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./todo.js"></script>
   </body>
 </html>

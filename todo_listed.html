@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="time_tracker.css" rel="stylesheet">
+    <link href="todo.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="./docs/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -34,61 +35,65 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Time Tracker</a>
+          <a class="navbar-brand" href="./index.html">Time Tracker</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="./todo.html">To-Do</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li class="active"><a href="./todo.html">To-Do</a></li>
             <li><a href="./analyze.html">Analyze Time</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <!-- <button type="button" class="btn btn-primary navbar-btn track">Track New Activity</button>
-            <button type="button" class="btn btn-default navbar-btn">Stop Tracking</button> -->
+            <button type="button" class="btn btn-primary navbar-btn">Track New Activity</button>
+            <button type="button" class="btn btn-default navbar-btn">Stop Tracking</button>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
+    <!-- <div class="container"> -->
 
-    <div class='container-fluid timeline' style="visibility:hidden;">
-      <ul class='htimeline'>
-        <li data-date='Feb. 10, 2017' class='step col-sm-12 orange'>
-          <!-- <div>Inserted</div> -->
-          <div class='tasks container-fluid'>
-              <div class='task col-sm-3'>Working on EECS 330</div>
-          </div>
-        </li>
-    </div>
+      <div class="col-lg-4 col-sm-offset-4 container">
+      <!-- Main component for a primary marketing message or call to action -->
+        <div class="row jumbotron" id=todo>
+          <form>
+            <div class="form-group">
+              <h1> TO-DO LIST </h1>
 
-
-    <div class="col-lg-4 col-sm-offset-4 container">
-    <!-- Main component for a primary marketing message or call to action -->
-      <div class="row jumbotron">
-        <a class="btn btn-lg btn-primary center-block" role="button" href="./todo_listed.html">Choose from TO-DO</a>
-        <h2 class="text-center">-OR-</h2>
-        <form>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text" class="form-control" id="input" aria-describedby="" placeholder="Enter Activity">
-          </div>
-        </form>
-        <h2><pre class="text-center" style="font-size: 36px">0 : 00</pre></h2>
-        <h2 class="text-center">HR : MIN</h2>
-        <br>
-        <a class="btn btn-lg btn-primary center-block track" role="button">TRACK ACTIVITY</a>
+              <label class="checkbox cb0">
+                 <input type="checkbox" value="__option__">
+              </label>
+              <!-- <a type="text" id="input0" aria-describedby=""></a> -->
+              <a href="./currActivity.html" class="" id="input0" role="button"></a>
+<br>
+              <label class="checkbox cb1">
+                <input type="checkbox" name="keywords" value="__option__">
+              </label>
+              <a class="" id="input1" role="button"></a>
+<br>
+              <label class="checkbox cb2">
+                <input type="checkbox" name="keywords" value="__option__">
+              </label>
+              <a class="" id="input2" role="button"></a>
+<br>
+              <label class="checkbox cb3">
+                <input type="checkbox" name="keywords" value="__option__">
+              </label>
+            <a class="" id="input3" role="button"></a>
+<br>
+              <label class="checkbox cb4">
+                <input type="checkbox" name="keywords" value="__option__">
+              </label>
+              <a class="" id="input4" role="button"></a>
+<br>
+            </div>
+          </form>
+          <!-- <a class="btn btn-lg btn-primary center-block track" role="button">TRACK</a> -->
+        </div>
       </div>
-    </div> <!-- /container -->
 
-    <div class="col-sm-4">
-      <div class="alert alert-danger">
-        <strong>Warning!</strong> Enter an activity before you start tracking.
-      </div>
-    </div>
+    <!-- </div> <! /container -->
 
-    <!-- <div id="test">
-      no data in sessionStorage
-    </div> -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -98,6 +103,6 @@
     <script src="./docs/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./docs/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="./proto1.js"></script>
+    <script src="./todo.js"></script>
   </body>
 </html>

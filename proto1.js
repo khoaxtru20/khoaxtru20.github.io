@@ -1,18 +1,17 @@
 //Value in the form
 var val = "";
 
-//Only do this on the page with this element.
-if(document.getElementById("test")){
+//Only do this on the page with this element (currActivity.html)
+if(document.getElementById("currAct")){
 
-  var test_display = document.getElementById("test");
-  var timeLine = document.getElementById("timeline");
+  var test_display = document.getElementById("currAct");
 
   if (sessionStorage.getItem("db")) {
     var saved = sessionStorage.getItem("db");
     test_display.innerHTML = saved;
-    timeLine.innerHTML = saved;
   }
 }
+//Only do this on the page with this element (homepage_timeline.html)
 if(document.getElementById("timeline")){
 
   var timeLine = document.getElementById("timeline");
@@ -23,7 +22,7 @@ if(document.getElementById("timeline")){
   }
 }
 
-//Only do this on the pages with this element.
+//Only do this on the pages with this element (index.html)
 if(document.getElementById("input")){
   //Get the form from the html
   var x = document.getElementById("input");
@@ -51,7 +50,7 @@ function keydown(ev) {
       }
     }
   }
-  console.log(val);
+  // console.log(val);
 }
 
 $(document).ready(function() {
