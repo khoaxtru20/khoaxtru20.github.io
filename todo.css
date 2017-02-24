@@ -8,3 +8,11 @@ margin-top: 21px;
 .td{
   display:none;
 }
+
+.task{
+  margin-bottom:10px;
+  display:none;
+}
+#taskShow{
+  margin-bottom:10px;
+}
