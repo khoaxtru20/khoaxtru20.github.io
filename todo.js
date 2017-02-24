@@ -71,5 +71,4 @@ document.onclick = (function(e){
       $('#input'+targID.slice(-1)).css({"display":"block"});
     });
   }
-
 });
