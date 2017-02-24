@@ -48,8 +48,10 @@ function show() {
 
 //Remove items from to-do list on check
 checkboxes = [];
+taskboxes = [];
 for (var j = 0; j < 5; j++) {
   checkboxes[j]="ch"+ j;
+  taskboxes[j]="input"+ j;
 }
 document.onclick = (function(e){
   targID = e.target.id;
@@ -71,4 +73,11 @@ document.onclick = (function(e){
       $('#input'+targID.slice(-1)).css({"display":"block"});
     });
   }
+  if (taskboxes.includes(targID)){
+    saveTask = document.getElementById(targID).innerHTML; console.log(saveTask); console.log(targID);
+    sessionStorage.setItem("db", saveTask);
+    location.href="./currActivity.html";
+    document.getElementById("currAct").innerHTML = sessionStorage.getItem("db");
+  }
+
 });
