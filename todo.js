@@ -15,8 +15,10 @@ function submit() {
 }
 document.onkeypress = (function (e) {
   if (e.which == 13){
+    e.preventDefault();
     submit();
   }
+
 });
 
 
@@ -31,18 +33,19 @@ if(document.getElementById("input"+i)){
       $("#input"+i).show();
     }
 }
-//to update value on CurrentActivity Page
-function updateStorage(ev) {
-  // var x = ev.target;
-  // sessionStorage.setItem("db", x.innerHTML);
-}
+
 //To show the to-do elements when pressing "+"
 k=0;
 function show() {
   $(document).ready(function () {
     var str = "#task";
-    $(str+k).show();
-    k++;
+    var strP = "#plus";
+    if (str+k) {
+      $(str+k).show();
+      $(strP+k).show();
+      $(strP+(k-1)).hide();
+      k++;
+    }
   });
 }
 
@@ -55,7 +58,7 @@ for (var j = 0; j < 5; j++) {
 }
 document.onclick = (function(e){
   targID = e.target.id;
-  if (checkboxes.includes(targID) && document.getElementById(targID).checked){
+  if (checkboxes.includes(targID)){
     // $("#"+targID).hide();
     // $("#input"+targID.slice(-1)).hide();
     // $("#"+targID).fadeOut('medium', function() {
@@ -74,10 +77,9 @@ document.onclick = (function(e){
     });
   }
   if (taskboxes.includes(targID)){
-    saveTask = document.getElementById(targID).innerHTML; console.log(saveTask); console.log(targID);
+    saveTask = JSON.stringify(document.getElementById(targID).innerHTML);
     sessionStorage.setItem("db", saveTask);
     location.href="./currActivity.html";
-    document.getElementById("currAct").innerHTML = sessionStorage.getItem("db");
   }
 
 });
