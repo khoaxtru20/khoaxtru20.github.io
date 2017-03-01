@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>TRACK IT!</title>
+    <title>TimeTracker</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./docs/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">TRACK IT!</a>
+          <a class="navbar-brand" href="#">Time Tracker</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -53,7 +53,7 @@
 
     <div class='container-fluid timeline'>
       <ul class='htimeline'>
-        <li data-date="" class='step col-sm-12 blue' id="date">
+        <li data-date='' class='step col-sm-12 blue' id="date">
           <!-- <div>Inserted</div> -->
           <div class='tasks container-fluid'>
               <div class='task col-sm-3' id="timeline">Untitled</div>
@@ -66,18 +66,17 @@
     <div class="col-lg-4 col-sm-offset-4 container">
     <!-- Main component for a primary marketing message or call to action -->
       <div class="row jumbotron">
-        <h1 style="font-size:45px"> TRACK IT!</h1>
+        <h1 style="font-size:45px"> TRACK IT! </h1>
         <form>
           <div class="form-group">
-            <input type="text" name="Enter Activity" class="form-control" aria-describedby="" placeholder="Enter Activity">
+            <input type="text" name="Enter Activity" class="form-control" aria-describedby="" placeholder="Enter New Activity">
           </div>
         </form>
         <!-- <h2><pre class="text-center" style="font-size: 36px">0 : 00</pre></h2>
         <h2 class="text-center">HR : MIN</h2> -->
-        <a class="btn btn-lg btn-primary center-block" onclick="track()" role="button">TRACK ACTIVITY</a>
-        <h2 class="text-center">&mdash; OR &mdash;</h2>
-        <br>
-        <a class="btn btn-lg btn-primary center-block" role="button" href="./todo_listed.html">CHOOSE FROM TO-DO</a>
+        <a class="btn btn-lg btn-primary btn-block" onclick="track()" role="button">TRACK ACTIVITY</a>
+        <h2 class="text-center" style="padding-bottom:10px;">&mdash; OR &mdash;</h2>
+        <a class="btn btn-lg btn-primary btn-block" role="button" href="./todo_listed.html">CHOOSE FROM TO-DO</a>
       </div>
     </div> <!-- /container -->
 
@@ -89,6 +88,7 @@
         <strong>Warning!</strong> Enter an activity before you start tracking.
       </div>
     </div>
+
 
 
     <!-- Bootstrap core JavaScript
