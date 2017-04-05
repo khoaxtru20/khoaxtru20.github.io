@@ -1,0 +1,20 @@
+.checkbox{
+  display:none;
+}
+
+.td{
+  margin-bottom:10px;
+  display:none;
+}
+
+.task{
+  margin-bottom:18px;
+  display:none;
+}
+#taskShow{
+  margin-bottom:18px;
+}
+
+.close {
+  font-size:40px;
+}
