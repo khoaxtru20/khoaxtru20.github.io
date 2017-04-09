@@ -2,7 +2,8 @@
 layout: default
 page-type: post
 ---
-<main role="main" class="cf">
+<main role="main" id="main">
+  <div class="inner">
 <article class="posts">
  <article role="article" itemscope itemtype="https://schema.org/BlogPosting">
         <header>
@@ -16,7 +17,7 @@ page-type: post
         </footer>
     </article>
     <section class="post-links">
-    <p>Read more:</p>
+    <p>View another project:</p>
   {% if page.previous.url %}
     <p class="prevLink"><a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></p>
   {% endif %}
@@ -25,5 +26,6 @@ page-type: post
   {% endif %}
 	</section>
     </article>
+  </div>
         {% include sidebar.html %}
 </main>
