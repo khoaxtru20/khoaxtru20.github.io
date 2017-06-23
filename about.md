@@ -14,4 +14,4 @@ Some other things about me:
 * I am from the southeast side of Houston, Texas.
 * I am a self-proclaimed jazz pianist. If you ask me to play, I will most likely embarrass myself, but I like the improvisation and collaboration.
 * One of my biggest side projects is creating a documentary of my family history and journey to America.
-* I watch a lot of horror movies. Mostly since my girlfriend watches a lot of horror movies. [She's got a pretty dope Instagram IMO.](https://www.instagram.com/byzantineilse)
+* I watch a lot of horror movies. Mostly since my girlfriend watches a lot of horror movies. [She has a pretty dope Instagram IMO.](https://www.instagram.com/byzantineilse)
