@@ -6,7 +6,7 @@ tags: [music, sound, protools, collaboration]
 ---
 I arranged and recorded this song based off of [Gael Kim's song](https://soundcloud.com/gael-kim/please-dont) of the same name. I hope she sends her vocals to me so I can finally complete it....
 
-*Coming Soon*
+*Link coming soon.*
 
 Thanks to Chris Pow, Lena Goren (guitars), Jeff Maginity (drums), and Matt Griffin (bass) for being so talented and helping me out on this.
 
