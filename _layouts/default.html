@@ -1,15 +1,4 @@
 <!doctype html>
-<!--
-Website design:
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-Site Structure:
-	Adapted from exercise files for a Lynda.com tutorial on Jekyll by James Williamson
-
-  Last updated 4/7/2017 by Khoa Truong
--->
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -22,7 +11,7 @@ Site Structure:
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
@@ -70,7 +59,7 @@ Site Structure:
 			<script src="{{site.baseurl}}/assets/scripts/jquery.min.js"></script>
 			<script src="{{site.baseurl}}/assets/scripts/skel.min.js"></script>
 			<script src="{{site.baseurl}}/assets/scripts/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<!-- [if lte IE 8]><script src="{{site.baseurl}}assets/js/ie/respond.min.js"></script><![endif] -->
 			<script src="{{site.baseurl}}/assets/scripts/main.js"></script>
 </body>
 </html>

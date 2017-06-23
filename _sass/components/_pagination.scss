@@ -1,0 +1,42 @@
+///
+/// Phantom by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Pagination */
+$gutter: 1em;
+
+.pagination {
+	width: 100%;
+	font-size: 1.2em;
+}
+.prevLink {
+	float: left;
+	width: 49%;
+	text-align: left;
+	margin-top: $gutter;
+}
+.nextLink {
+	float: right;
+	width: 49%;
+	text-align: right;
+	margin-top: $gutter;
+}
+.previous:before {
+    content: "\f053\00a0";
+    font-family: FontAwesome;
+		vertical-align: middle;
+}
+.next:after {
+	content: "\00a0\f054";
+	font-family: FontAwesome;
+	vertical-align: middle;
+}
+.top-link {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.top-link:before {
+	content: '\25b2\00a0';
+}

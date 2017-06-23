@@ -13,19 +13,25 @@ page-type: post
         </header>
         {{content}}
         <footer>
-        <p>Posted in {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+        <div style="margin-bottom:3em;">
+        {% for tag in page.tags %}
+        <a style="border-bottom-color: transparent;" href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">
+          <button class="small" style="margin:0 1em 1em 0;">{{ tag }}</button>
+        </a>{% unless forloop.last %} {% endunless %}{% endfor %}
+      </div>
         </footer>
     </article>
     <section class="post-links">
-    <p>View another project:</p>
+    <!-- <p>View another project:</p> -->
   {% if page.previous.url %}
-    <p class="prevLink"><a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></p>
+    <a href="{{ site.baseurl }}{{page.previous.url}}"><button class="nextLink next">{{page.previous.title}}</button></a>
   {% endif %}
   {% if page.next.url %}
-    <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
+    <a href="{{ site.baseurl }}{{page.next.url}}"><button class="prevLink previous">{{page.next.title}}</button></a>
   {% endif %}
 	</section>
     </article>
+
   </div>
-        {% include sidebar.html %}
+        <!-- include sidebar.html  -->
 </main>
