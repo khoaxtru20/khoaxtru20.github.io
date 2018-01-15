@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Cheeseburger!"
+title:  "Cheeseburger! the game"
 date:   2017-07-10
-tags:  [northwestern, game design, unity, Adobe Photoshop, collaboration]
+tags:  [game, design, unity, Adobe Photoshop, collaboration, northwestern ]
 ---
+<!--Include screenshots-->
+
 What if food delivery was turned into a game?
 
 You'd get Cheeseburger!
@@ -15,7 +17,7 @@ As with all my other Northwestern projects, I had 10 weeks to complete this game
 In the game, you are delivering food on a bike. You must pick up and deliver as much food as possible within the time limit. The more you deliver, the more money you make! It's an arcade style game in which you try to get the highest score.
 
 Here's a little preview Alex made showcasing our game.
-<div style="position:relative;height:0;padding-bottom:56.25%; margin-bottom:2%;"><iframe width="640" height="360" src="https://www.youtube.com/embed/hDQTvWZBdO8" fframeborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+<div style="position:relative;height:0;padding-bottom:56.25%; margin-bottom:2%;"><iframe width="640" height="360" src="https://www.youtube.com/embed/hDQTvWZBdO8" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 It's simply made, but it's a functioning, playable game and considering this is the first one I have ever helped build, I'm proud of the result.
 

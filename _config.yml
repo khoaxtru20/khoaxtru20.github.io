@@ -1,9 +1,9 @@
 # Site settings
-title: Khoa.
-description: "Personal site to showcase projects by Khoa Truong"
+title: Works by Khoa.
+description: "A personal site to showcase projects by Khoa Truong."
 baseurl: ""
 url: ""
-tagline: On Display
+tagline: Everything's coming up Roses.
 
 # Build settings
 markdown: kramdown
