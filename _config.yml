@@ -3,7 +3,7 @@ title: Works by Khoa.
 description: "A personal site to showcase projects by Khoa Truong."
 baseurl: ""
 url: ""
-tagline: Everything's coming up Roses.
+tagline: Everything's coming up roses.
 
 # Build settings
 markdown: kramdown
