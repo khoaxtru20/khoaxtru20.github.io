@@ -36,7 +36,10 @@ Site Structure adapted from:
       <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
         <h2>{{post.title}}</h2>
         <div class="content">
-          <p>{{ post.content | strip_html | truncate: 100 }}</p>
+          <p>{{ post.content | strip_html |
+            remove_first: "The Project" |
+            remove_first: "Process" |
+            remove_first: "Results"| truncate: 100 }}</p>
           <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%B %-d, %Y" }}</time>
         </div>
       </a>

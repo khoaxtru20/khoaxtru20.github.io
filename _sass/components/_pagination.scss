@@ -38,5 +38,8 @@ $gutter: 1em;
 	margin-bottom: 2em;
 }
 .top-link:before {
-	content: '\25b2\00a0';
+	content: '\25b2\00a0 ';
+}
+.top-link:after {
+	content: ' \25b2\00a0';
 }

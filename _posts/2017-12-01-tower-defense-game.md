@@ -12,5 +12,5 @@ I feel like most of my contributions were giving my teammates a hard time by fix
 
 ### Results
 Screenshots to come, and if I have time I will post a video of it in action.
-
+<hr>
 *Thanks to Keith Kravis and Olivia Cole for their patience and contributions.*

@@ -2,9 +2,9 @@
 layout: post
 title:  "The Mini Windy City"
 date:   2017-12-05
-tags: [design, adobe after effects, cinema 4d, mad mapper, projection mapping, collaboration, northwestern]
+tags: [design, adobe after effects, cinema 4d, madmapper, projection mapping, collaboration, northwestern]
 ---
-*This post is under construction*
+*This post is under construction.*
 
 ### The Project
 In the fall, I worked with Northwestern's Knight Lab to design a data visualization project using projection mapping technology and techniques. The team came up with a prototype that portrayed energy usage in Illinois.
@@ -32,7 +32,7 @@ One thing we didn't have time to get to was integrating words or audio to descri
 <div style="position:relative;height:0;padding-bottom:56.25%; margin-bottom:2%"><iframe src="https://www.youtube.com/embed/lmco2M9fkuI?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 <div style="overflow-y: scroll; height:132px;">
-<br>[0:13-0:22] "Gas lamps first flickered on in Chicago in 1850"
+[0:13-0:22] "Gas lamps first flickered on in Chicago in 1850"
 <br>[0:24-0:33] "The first electric station sparked to life in 1888"
 <br>[0:38–0:47] "And nuclear power arrived in 1960"
 <br>[0:48-0:54] "Based on reports gathered by the Illinois Commerce Commission, Chicago’s energy profile looks like this"
@@ -46,4 +46,5 @@ One thing we didn't have time to get to was integrating words or audio to descri
 <br>[1:38-1:44] "Even the Chicago Public Schools, Chicago Housing Authority and Chicago Park District are joining in–"
 <br>[1:44-End] "And hopefully setting the course for Chicago’s clean energy future."
 </div>
+<hr>
 *Narrative contributions by Theo Chryssos*

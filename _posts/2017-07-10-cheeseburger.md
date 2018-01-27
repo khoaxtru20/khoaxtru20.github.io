@@ -22,8 +22,8 @@ If we had more time and could develop it further, we had ideas of creating more 
 
 We play tested our game with our colleagues and it was well received. They thought it was a neat idea and fun to play, although I observed that the biker controls and physics took some getting used to. One thing this iteration would have benefitted from would be better visual hints about where food can be found and their drop off locations.
 
+If you have any questions about this project, reach out to me! I'd be happy to answer any questions.
+
 ### Results
 Here's a little preview Alex made showcasing our game.
 <div style="position:relative;height:0;padding-bottom:56.25%; margin-bottom:2%;"><iframe width="640" height="360" src="https://www.youtube.com/embed/hDQTvWZBdO8" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-
-If you have any questions about this project, reach out to me! I'd be happy to answer any questions.
