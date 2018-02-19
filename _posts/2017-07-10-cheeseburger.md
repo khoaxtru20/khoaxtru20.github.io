@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cheeseburger! the game"
+title:  "Cheeseburger! The Game"
 date:   2017-07-10
 tags:  [game, design, unity, Adobe Photoshop, collaboration, northwestern ]
 ---

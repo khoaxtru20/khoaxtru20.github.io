@@ -10,20 +10,21 @@ Website design adapted from:
 Site Structure adapted from:
 	Exercise files for a Lynda.com tutorial on Jekyll by James Williamson
 
-  Last updated 1/16/2018 by Khoa Truong
+  Last updated 1/26/2018 by Khoa Truong
 -->
 <main role="main" id="main">
   <div class="inner">
     <header>
+      <!--Consider making this intro text dynamic: hide after the first page.-->
       <h1><!--[-->Welcome!<!--]--></h1>
       <p>You've made it to my personal website. It's essentially a blog describing many of the projects
         on which I've worked the past couple of years. Each square below is a post in which I briefly describe how the project came
         about and how I contributed to it. I learn a lot from these projects just by nature of doing them, and I will sometimes have
         takeaways that you may find helpful if you are working on projects that are similar to what I've done!</p>
-        <p>Just so you're aware: clicking on "{{site.title}}" will return you to this page. My apologies for links,
-          images, or videos that do not work on your device. This is a work in progress. </p>
-          <p> Finally, feel free to reach out to me for any reason. Links to my social media handles can be found at the bottom of each page.
-            Enjoy!</p>
+      <p>Just so you're aware: clicking on "{{site.title}}" will return you to this page. My apologies for links,
+        images, or videos that do not work on your device. This is a work in progress. </p>
+      <p> Finally, feel free to reach out to me for any reason. Links to my social media handles can be found at the bottom of each page.
+        Enjoy!</p>
     </header>
 {% assign styleNum = 0 %}
 {% assign imageNum = 0 %}
@@ -65,7 +66,7 @@ Site Structure adapted from:
       {% if paginator.next_page %}
       <p class="nextLink"><a href="{{ site.baseurl }}/project/page{{ paginator.next_page }}" class="next">older entries</a></p>
       {% endif %} </div>
-  <!-- include sidebar.html -->
+  <!-- include sidebar.html? -->
   </div>
 
 </main>

@@ -4,14 +4,15 @@ title:  "The Mini Windy City"
 date:   2017-12-05
 tags: [design, adobe after effects, cinema 4d, madmapper, projection mapping, collaboration, northwestern]
 ---
-*This post is under construction.*
+<!-- Finish writing this post. -->
 
 ### The Project
 In the fall, I worked with Northwestern's Knight Lab to design a data visualization project using projection mapping technology and techniques. The team came up with a prototype that portrayed energy usage in Illinois.
 
 ### Process
-To make this, we dabbled in software like Cinema 4D, Adobe After Effects, and Mad Mapper. I contributed to the graphics of the first thirty seconds of the video, and we have the Segal Design masters students to thank for the laser-cut 3D model of the Chicago skyline.
+To make this, we dabbled in software like Cinema 4D, Adobe After Effects, and Mad Mapper. Among other things, I contributed to the graphics of the first thirty seconds of the video, and we have the Segal Design masters students to thank for the laser-cut 3D model of the Chicago skyline.
 
+<!--
 #### In the beginning
 
 #### Hello World
@@ -25,9 +26,10 @@ To make this, we dabbled in software like Cinema 4D, Adobe After Effects, and Ma
 ##### Why
 
 ### Takeaways
+-->
 
 ### Results
-One thing we didn't have time to get to was integrating words or audio to describe the visuals. See below the text we would have included.
+One thing we didn't get to was integrating words or audio to describe the visuals. See below the text we would have included.
 
 <div style="position:relative;height:0;padding-bottom:56.25%; margin-bottom:2%"><iframe src="https://www.youtube.com/embed/lmco2M9fkuI?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
