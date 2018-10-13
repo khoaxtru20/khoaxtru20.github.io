@@ -7,7 +7,7 @@ I'm designing and writing and filming and creating. I thought I'd show you some 
 
 ### About the Author
 
-My name is Khoa Truong. I am a senior at Northwestern University studying film and computer science. I create experimental digital graphics and films and explore the potential of using technology to tell beautiful, interactive, and compelling stories. Some issues of interest: environmental conservation, education, autism research, mental health, non-profits, tech startups.
+My name is Khoa Truong. I recently graduated from Northwestern University with a degree in film and computer science. I create experimental digital graphics and films and explore the potential of using technology to tell beautiful, interactive, and compelling stories. Some issues of interest: environmental conservation, education, autism research, mental health, non-profits, tech startups.
 
 Some other things about me:
 

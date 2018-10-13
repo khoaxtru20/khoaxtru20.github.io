@@ -2,7 +2,7 @@
 layout: post
 title:  "Applause for a Cause"
 date:   2016-05-06
-tags: [film, leadership, narrative, godaddy, protools, northwestern]
+tags: [film, leadership, narrative, godaddy, protools, northwestern, non-profit]
 ---
 I could write a 10-page essay on all the things I learned over the year of producing *Dead Tongues* for Applause for a Cause. I'd like to compress all of it into a post here, but I don't have the time yet (and I probably won't until I graduate...).
 
